@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-chkfloat
 Version:	0.1
-Release:	9
+Release:	10
 Summary:	Warn whenever a float is placed "to far away"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chkfloat
