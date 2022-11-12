@@ -1,18 +1,12 @@
-# revision 27473
-# category Package
-# catalog-ctan /macros/latex/contrib/chkfloat
-# catalog-date 2012-08-20 08:30:38 +0200
-# catalog-license lppl1.3
-# catalog-version 0.1
 Name:		texlive-chkfloat
-Version:	0.1
-Release:	12
+Version:	27473
+Release:	1
 Summary:	Warn whenever a float is placed "to far away"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chkfloat
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.r27473.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.doc.r27473.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ their origin. It was motivated by a question on the question
 and answer page.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +34,7 @@ and answer page.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
