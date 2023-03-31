@@ -1,6 +1,6 @@
 Name:		texlive-chkfloat
 Version:	27473
-Release:	1
+Release:	2
 Summary:	Warn whenever a float is placed "to far away"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chkfloat
