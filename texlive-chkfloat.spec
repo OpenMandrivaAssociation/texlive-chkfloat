@@ -3,7 +3,7 @@ Version:	27473
 Release:	2
 Summary:	Warn whenever a float is placed "to far away"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chkfloat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chkfloat
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chkfloat.doc.r%{version}.tar.xz
